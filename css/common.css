@@ -38,6 +38,21 @@ input:focus {
   outline: none;
 }
 
+button {
+  padding: 8px 16px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
 /* ------------------------ Categories --------------------------------- */
 
 #categories {
@@ -147,17 +162,23 @@ input:focus {
 
 .login-form button {
   margin-top: 16px;
-  padding: 8px 16px;
-  background-color: #4e75ff;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
   width: 86px;
   height: 40px;
 }
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------- Task5 --------------------------------------- */
 
-.login-form button:hover {
-  background-color: #6c8cff;
+.widget {
+  max-width: 345px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+button.change-color {
+  max-width: 148px;
+}
+.color {
+  font-weight: bold;
 }
